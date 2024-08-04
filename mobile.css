@@ -1,0 +1,218 @@
+@media(max-width:450px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         text-decoration: none;
+    }
+    
+    header .search-group{
+        width: 100%;
+        height: fit-content;
+        background-image: url("lamp.jpg");
+        background-size: 100%;
+        background-position: center center;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    
+    header h1{
+        font-size: 30px;
+        font-weight: 100;
+        color:white;
+        margin-bottom: 350px;
+        padding-left: 30px;
+    }
+    
+    .search-group{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .search-group input{
+        width: 50%;
+        padding: 10px 20px;
+        border:1px solid black;
+       
+        font-size: 18px;
+        outline: none;
+    }
+    
+    
+    .search-group img{
+        position: absolute;
+        left:5px;
+        top:50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        
+    }
+    
+    
+    
+    nav{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap:10px;
+        background-color: black;
+    }
+    
+    
+    nav a{
+        font-size: 10px;
+        gap: 20px;
+        color: white;
+    }
+    
+    
+    main{
+        width: 70%;
+    
+    }
+    
+    .list{
+        width: 100%;
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .list h2{
+        font-size: 25px;
+        margin-top: 80px;
+        font-weight: 100;
+    }
+    
+    .list article{
+        width: 70%;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    article img{
+        
+        height: 120px;
+        
+       
+    }
+    
+    div{
+        width: 40%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .create{
+        width: 100%;
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+    }
+    
+    .create h2{
+        font-size: 25px;
+    }
+    
+    .create article{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 600px;
+    }
+    
+    .create article p{
+        font-size: 25px;
+        font-weight: 100;
+    }
+    
+    
+    .gallery{
+        width: 100%;
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    
+    .gallery h2{
+        font-size: 25px;
+    }
+    
+    .gallery article{
+        width: 70%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    article img{
+        height: 120px;
+    }
+    .contact{
+        padding-top: 0;
+    }
+
+    .contact h2 {
+        font-size: 25px;
+      
+    }
+
+    .contact article {
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        gap:50px;
+        padding: 50px 30px;
+        position: relative;
+    }
+
+    .contact article .map-area {
+        width: 100%;
+      
+
+    }
+
+    .contact article .address-area {
+        width: 60%;
+        position: absolute;
+      
+    }
+
+  
+
+
+    footer p {
+        font-size: 7px;
+    }
+ 
+}
